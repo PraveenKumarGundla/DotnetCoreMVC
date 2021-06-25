@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coremvc", "coremvc\coremvc.csproj", "{94E0906F-F8DF-4A58-9E6A-7267311D8BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E0906F-F8DF-4A58-9E6A-7267311D8BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E0906F-F8DF-4A58-9E6A-7267311D8BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E0906F-F8DF-4A58-9E6A-7267311D8BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E0906F-F8DF-4A58-9E6A-7267311D8BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11E50BBA-1B42-43E9-8F24-7180B72141DD}
+	EndGlobalSection
+EndGlobal
