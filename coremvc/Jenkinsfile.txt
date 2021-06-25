@@ -1,0 +1,24 @@
+﻿pipeline{
+	agent any
+
+	stages{
+		
+		stage('clean workspace'){
+			steps{
+					CleanWs()
+				}
+		}
+
+		stage('restore'){
+			steps{
+				bat "dotnet restore ${workspace}/coremvc/coremvc.sln"
+			}
+		}
+
+		stage('build){
+			steps{
+				bat "dotnet build --configuration Release ${workspace}/coremvc/coremvc.sln"
+			}
+		}
+	}
+}
